@@ -11,7 +11,9 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="ToDo" asp-action="Index">Ermolaeva.Project._ToDo_List</a>
+                <a class="navbar-brand" asp-area="" asp-controller="ToDo" asp-action="Index">
+                    Get things in order with TodoList. Unload your mind. Find clarity - move your tasks from your head to a TodoList (no matter where you are or what device you use). TodoList has helped millions of people complete over 1.5 billion tasks across 150+ million projects.
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,11 +46,9 @@
                     @TempData["Error"]
                 </div>
             }
-
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2021 - Ermolaeva.Project._ToDo_List - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
